@@ -15,3 +15,6 @@ frontend/.env*.local
 frontend/.vercel
 frontend/*.tsbuildinfo
 frontend/next-env.d.ts
+
+backend/.venv
+backend/.env
