@@ -42,9 +42,13 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     
     "rest_framework",
+    "corsheaders",
     "apis.apps.ApisConfig" ,
     "todos.apps.TodosConfig"
 ]
+
+CORS_ALLOWED_ORIGINS = ("*")
+CSRF_TRUSTED_ORIGINS = ("*")
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
