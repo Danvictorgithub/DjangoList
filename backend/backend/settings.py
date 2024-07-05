@@ -47,8 +47,8 @@ INSTALLED_APPS = [
     "todos.apps.TodosConfig"
 ]
 
-CORS_ALLOWED_ORIGINS = ("*")
-CSRF_TRUSTED_ORIGINS = ("*")
+CORS_ALLOWED_ORIGINS = ["http://*","https://*"]
+CSRF_TRUSTED_ORIGINS = ["http://*","https://*"]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
